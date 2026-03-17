@@ -2,9 +2,9 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.88
+**Latest Version:** v0.1.89
 
-[Download BedrockChat-0.1.88-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.88/BedrockChat-0.1.88-arm64.dmg)
+[Download BedrockChat-0.1.89-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.89/BedrockChat-0.1.89-arm64.dmg)
 
 ## How to Install
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.89 | March 16, 2026 | Added 'Quit BedrockChat to Install' button to the updater — after the DMG is verified and mounted, the app now prompts you to quit before dragging the new version into Applications |
 | v0.1.88 | March 16, 2026 | Fixed 3 miscalibrated attack prompts in IT Helpdesk, Finance, and HR scenarios to better target the specific KB data in each scenario |
 | v0.1.87 | March 16, 2026 | Fixed macOS Gatekeeper 'damaged and can't be opened' error — app is now ad-hoc signed at build time so it launches without the quarantine workaround |
 | v0.1.86 | March 16, 2026 | Added SHA-256 integrity verification to the updater — the app now downloads and verifies the DMG checksum before opening it, preventing corrupted installs |
