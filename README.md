@@ -2,7 +2,7 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.90
+**Latest Version:** v0.1.91
 
 [Download BedrockChat-0.1.90-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.90/BedrockChat-0.1.90-arm64.dmg)
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.91 | March 17, 2026 | Rebranded to SEED (Solution Engineer Environment Deployment) |
 | v0.1.90 | March 16, 2026 | Fixed updater quit prompt not appearing — BedrockChat window now refocuses after the DMG mounts so the quit-to-install button is visible |
 | v0.1.89 | March 16, 2026 | Added 'Quit BedrockChat to Install' button to the updater — after the DMG is verified and mounted, the app now prompts you to quit before dragging the new version into Applications |
 | v0.1.88 | March 16, 2026 | Fixed 3 miscalibrated attack prompts in IT Helpdesk, Finance, and HR scenarios to better target the specific KB data in each scenario |
