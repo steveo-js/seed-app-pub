@@ -2,7 +2,7 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.96
+**Latest Version:** v0.1.97
 
 [Download BedrockChat-0.1.90-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.90/BedrockChat-0.1.90-arm64.dmg)
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.97 | March 23, 2026 | Setup wizard now detects whether AWS CLI and Azure CLI are installed and shows install instructions with links when either is missing, before the user attempts SSO or az login. |
 | v0.1.96 | March 23, 2026 | Setup wizard now loads available models directly from your Azure account — no more quota errors from hardcoded defaults; failed deployments show a Load available models button for in-wizard retry. |
 | v0.1.95 | March 23, 2026 | Model deployment failures no longer abort provisioning — quota/access errors show a warning per model while the account endpoint and API key are still saved; partial success is handled gracefully. |
 | v0.1.94 | March 23, 2026 | Azure setup now auto-detects existing resource groups and AI Services accounts after login; dropdowns replace manual text entry with a Create new option for each. |
