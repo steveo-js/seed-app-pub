@@ -2,7 +2,7 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.104
+**Latest Version:** v0.1.105
 
 [Download BedrockChat-0.1.90-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.90/BedrockChat-0.1.90-arm64.dmg)
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.105 | March 23, 2026 | Consistent model count header: both AWS and Azure now show X enabled · Y in catalog |
 | v0.1.104 | March 23, 2026 | Deploy & Enable any Azure model catalog entry directly from the Models page |
 | v0.1.103 | March 23, 2026 | Fix Azure catalog: CLI list-models response fields are top-level not nested; all 215 models now load |
 | v0.1.102 | March 23, 2026 | Fix Azure catalog loading for all setup paths; fix AWS model count to show full catalog total |
