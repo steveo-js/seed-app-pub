@@ -2,7 +2,7 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.126
+**Latest Version:** v0.1.127
 
 [Download BedrockChat-0.1.90-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.90/BedrockChat-0.1.90-arm64.dmg)
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.127 | March 25, 2026 | Fixed 404 on all Azure model verification: inference calls were going to the project management sub-path (/api/projects/{project}/openai/...) instead of the account-level inference endpoint. Now strips /api/projects/... from the project endpoint URL before constructing the AzureOpenAI client. |
 | v0.1.126 | March 25, 2026 | Fixed 404 during Azure connection test (models.list not supported at AI Foundry project endpoints — now treated as success). Added Debug Log panel in Help showing exact URLs, status codes, and response bodies for every Azure HTTP call. |
 | v0.1.124 | March 25, 2026 | Fixed 400 API version not supported when testing Azure connections with API key auth. Corrected apiVersion from 2025-04-01-preview (invalid) to 2025-11-15-preview, matching the version used internally by the Azure AI Projects SDK. |
 | v0.1.123 | March 25, 2026 | Fixed Missing API Key Header Name error when testing Azure connections with API key auth. The API key + project endpoint path now uses AzureOpenAI directly with apiVersion 2025-04-01-preview, resolving both this error and the original 400 API version not supported error for GPT-5 era models. |
