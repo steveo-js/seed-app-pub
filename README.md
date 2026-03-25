@@ -2,7 +2,7 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.121
+**Latest Version:** v0.1.122
 
 [Download BedrockChat-0.1.90-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.90/BedrockChat-0.1.90-arm64.dmg)
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.122 | March 25, 2026 | Fixed 400 API version not supported error when verifying GPT-5/mini/nano models in Azure setup wizard |
 | v0.1.121 | March 24, 2026 | Migrated Azure agents to native Azure AI Foundry Agent Service — agents now appear in AI Foundry portal under Build and Customize → Agents |
 | v0.1.120 | March 24, 2026 | Migrated Azure backend to AI Foundry: agents now appear in Azure AI Foundry portal (Build & Customize → Agents). Added project endpoint step in setup wizard. |
 | v0.1.119 | March 24, 2026 | Fix: agent create/edit in Azure mode was routing to AWS Bedrock; now correctly uses Azure OpenAI Assistants API |
