@@ -2,7 +2,7 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.138
+**Latest Version:** v0.1.139
 
 [Download BedrockChat-0.1.90-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.90/BedrockChat-0.1.90-arm64.dmg)
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.139 | March 26, 2026 | Fixed Open in AI Foundry link — was generating invalid per-agent URL path causing page not found |
 | v0.1.138 | March 26, 2026 | Azure agents now link directly to the agent in AI Foundry (ai.azure.com) with a wsid deep link, and the agent list shows the Azure agent ID for easy cross-reference |
 | v0.1.137 | March 26, 2026 | Fixed Azure AI Foundry provisioning: wrong extension name (azure-ai-ml → ml), invalid --no-wait false syntax, graceful --ai-services fallback, REST API fallback if ml extension unavailable, real region detection from resource group |
 | v0.1.136 | March 26, 2026 | Fixed Azure Foundry setup modal not appearing on agent creation failure — stale React state bug caused the Resource not found error check to always read null |
