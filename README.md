@@ -2,7 +2,7 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.131
+**Latest Version:** v0.1.132
 
 [Download BedrockChat-0.1.90-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.90/BedrockChat-0.1.90-arm64.dmg)
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.132 | March 25, 2026 | Fix health check 404 for project-scoped Azure models (gpt-5, o3) — use full AI Foundry project endpoint for inference instead of stripping to account root |
 | v0.1.131 | March 25, 2026 | Fix Azure project endpoint not saved after wizard — auto-populate, auto-derive, and save correctly from Switch Azure Profile |
 | v0.1.130 | March 25, 2026 | Fixed: Continue anyway in Azure test step no longer loops back to provider selection. Three root causes fixed: azureSetupComplete now always written on test completion; status-stream now recognizes project endpoints; page.tsx no longer re-checks via the AWS-only status route after wizard completion. |
 | v0.1.129 | March 25, 2026 | Azure wizard: failed deployments no longer block completion (Continue anyway button added); verify step now shows all pass/fail results clearly; project endpoint pre-filled from saved config on re-entry. |
