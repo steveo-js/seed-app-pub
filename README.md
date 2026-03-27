@@ -2,7 +2,7 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.153
+**Latest Version:** v0.1.154
 
 [Download BedrockChat-0.1.90-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.90/BedrockChat-0.1.90-arm64.dmg)
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.154 | March 27, 2026 | Added Azure Foundry propagation delay notice to scenario success screen |
 | v0.1.153 | March 27, 2026 | Hide Chat tab; Agents is now the default view on launch |
 | v0.1.152 | March 26, 2026 | Fix 'Open in AI Foundry' link to use new CognitiveServices project path; add warning in help that Azure agents are only visible at ai.azure.com, not portal.azure.com |
 | v0.1.151 | March 26, 2026 | Fix Azure setup wizard: create projects as CognitiveServices/accounts/projects (new Foundry type) instead of ML workspace kind=Project; remove Hub from provisioning flow; this is the root cause fix for 'project does not exist' errors |
