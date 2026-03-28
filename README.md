@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock**, **Azure AI Foundry**, or **Claude (Anthropic API)** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.169
+**Latest Version:** v0.1.170
 
-[Download SEED-0.1.169-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.169/SEED-0.1.169-arm64.dmg)
+[Download SEED-0.1.170-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.170/SEED-0.1.170-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.170 | March 28, 2026 | AI Hub replaces proxy in Claude routing UI; unified address+port input (default 4000), no http:// prefix in stored/displayed values |
 | v0.1.169 | March 28, 2026 | Added IP:Port proxy input mode (default port 4000) with URL preview; rewrote public README to reflect full SEED feature set |
 | v0.1.169 | March 28, 2026 | Added URL vs IP:Port mode toggle in proxy setup (default port 4000) with assembled-URL preview |
 | v0.1.168 | March 28, 2026 | Claude direct API chat tab with proxy profiles, proxy auth detection (bearer/basic auto-detect), AWS/Azure toggle hidden on Chat tab |
