@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.169 | March 28, 2026 | Added IP:Port proxy input mode (default port 4000) with URL preview; rewrote public README to reflect full SEED feature set |
 | v0.1.169 | March 28, 2026 | Added URL vs IP:Port mode toggle in proxy setup (default port 4000) with assembled-URL preview |
 | v0.1.168 | March 28, 2026 | Claude direct API chat tab with proxy profiles, proxy auth detection (bearer/basic auto-detect), AWS/Azure toggle hidden on Chat tab |
 | v0.1.167 | March 28, 2026 | Added Claude Chat tab with direct Anthropic API integration, named proxy profiles for routing, and Claude section in Settings |
