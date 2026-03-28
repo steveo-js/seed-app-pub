@@ -2,7 +2,7 @@
 
 A native macOS application that connects to AI models on Amazon Bedrock. Your AWS credentials stay on your machine and are never sent anywhere except directly to AWS.
 
-**Latest Version:** v0.1.164
+**Latest Version:** v0.1.165
 
 [Download BedrockChat-0.1.90-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.90/BedrockChat-0.1.90-arm64.dmg)
 
@@ -19,6 +19,7 @@ A native macOS application that connects to AI models on Amazon Bedrock. Your AW
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.165 | March 27, 2026 | Scenario build results (success/error) now pop up as a centered overlay instead of being buried at the bottom of the scenario list |
 | v0.1.164 | March 27, 2026 | Fix scenario sub-agents defaulting to Haiku 4.5 which requires explicit model access; all sub-agents now default to Nova Lite which works in all accounts |
 | v0.1.163 | March 27, 2026 | Added hospital/medical multi-agent scenario for AWS Bedrock with synthetic clinical data, pharmacy knowledge base, patient records, and 19 attack scenarios |
 | v0.1.162 | March 27, 2026 | Added multi-account SSO support: SEED now detects when your SSO session has access to multiple AWS accounts and shows a picker to choose which account and role to use |
