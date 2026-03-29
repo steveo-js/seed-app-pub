@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock**, **Azure AI Foundry**, or **Claude (Anthropic API)** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.171
+**Latest Version:** v0.1.172
 
-[Download SEED-0.1.171-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.171/SEED-0.1.171-arm64.dmg)
+[Download SEED-0.1.172-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.172/SEED-0.1.172-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.172 | March 28, 2026 | Fixed IP address HTTP/HTTPS detection; better error messages; Test button in setup form; badge turns red on failed check |
 | v0.1.171 | March 28, 2026 | Added full debug logging for AI Hub chat; timeout increased to 30s |
 | v0.1.170 | March 28, 2026 | Added Fetch Models and Check Connection buttons to the Chat toolbar |
 | v0.1.169 | March 28, 2026 | Fix hub connect: test before save, HTTPS default for public hostnames, cache:no-store on hub fetches; fix stale update notification |
