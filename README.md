@@ -1,6 +1,6 @@
 # SEED — AI Workbench for Solution Engineers
 
-A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock**, **Azure AI Foundry**, or **Claude (Anthropic API)** — all from one tool, with your credentials staying on your machine.
+A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
 **Latest Version:** v0.1.175
 
@@ -9,9 +9,6 @@ A native macOS application for exploring, deploying, and stress-testing AI syste
 ---
 
 ## What SEED Does
-
-### Claude Chat (Anthropic API)
-Chat directly with Claude models (Opus 4.6, Sonnet 4.6, Haiku 4.5) using an API key from console.anthropic.com — no AWS or Azure account needed for this tab. Route traffic through a named proxy profile (URL or IP:Port) with automatic auth detection (Bearer token or HTTP Basic).
 
 ### AI Hub Chat
 Connect SEED to a JetStream AI Hub (LiteLLM / OpenAI-compatible) to test virtual key access, available models, MCP server integrations, and guardrail policies — all without writing code. Enter your hub address, port, and API key once; SEED fetches the full model list and streams responses in real time. Use this tab to verify that virtual keys have the right model permissions, that MCP tools are wired up correctly, and that guardrails are triggering as expected.
@@ -68,9 +65,4 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 | v0.1.170 | March 28, 2026 | Added Fetch Models and Check Connection buttons to the Chat toolbar |
 | v0.1.169 | March 28, 2026 | Fix hub connect: test before save, HTTPS default for public hostnames, cache:no-store on hub fetches; fix stale update notification |
 | v0.1.168 | March 28, 2026 | Added AI Hub Chat tab — connect to any JetStream AI Hub (LiteLLM/OpenAI-compatible) |
-| v0.1.170 | March 28, 2026 | AI Hub replaces proxy in Claude routing UI; unified address+port input (default 4000), no http:// prefix in stored/displayed values |
-| v0.1.169 | March 28, 2026 | Added IP:Port proxy input mode (default port 4000) with URL preview; rewrote public README to reflect full SEED feature set |
-| v0.1.169 | March 28, 2026 | Added URL vs IP:Port mode toggle in proxy setup (default port 4000) with assembled-URL preview |
-| v0.1.168 | March 28, 2026 | Claude direct API chat tab with proxy profiles, proxy auth detection (bearer/basic auto-detect), AWS/Azure toggle hidden on Chat tab |
 | v0.1.167 | March 28, 2026 | Added Claude Chat tab with direct Anthropic API integration, named proxy profiles for routing, and Claude section in Settings |
-
