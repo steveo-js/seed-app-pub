@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock**, **Azure AI Foundry**, or **Claude (Anthropic API)** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.174
+**Latest Version:** v0.1.175
 
-[Download SEED-0.1.174-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.174/SEED-0.1.174-arm64.dmg)
+[Download SEED-0.1.175-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.175/SEED-0.1.175-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.175 | March 31, 2026 | Fixed Scenario Guide panel not opening — agent.scenarioId is a UUID instance key, now correctly resolves scenario template data by scenarioName |
 | v0.1.174 | March 31, 2026 | Added Scenario Guide panel and empty state — scenario agents now surface KB reference data, agent roles, and example prompts directly in the chat UI so users know exactly what to ask |
 | v0.1.173 | March 28, 2026 | Improved error messages: slow failures now diagnosed as firewall/security-group blocks rather than connection refused |
 | v0.1.172 | March 28, 2026 | Fixed IP address HTTP/HTTPS detection; better error messages; Test button in setup form; badge turns red on failed check |
