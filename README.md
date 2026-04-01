@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.176
+**Latest Version:** v0.1.177
 
-[Download SEED-0.1.176-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.176/SEED-0.1.176-arm64.dmg)
+[Download SEED-0.1.177-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.177/SEED-0.1.177-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.177 | April 1, 2026 | On launch, automatically show the update modal when a new version is available; footer button now reads Later instead of Close when an update is present |
 | v0.1.176 | April 1, 2026 | Renamed Chat tab to AI Hub Chat |
 | v0.1.175 | March 31, 2026 | Fixed Scenario Guide panel not opening — agent.scenarioId is a UUID instance key, now correctly resolves scenario template data by scenarioName |
 | v0.1.174 | March 31, 2026 | Added Scenario Guide panel and empty state — scenario agents now surface KB reference data, agent roles, and example prompts directly in the chat UI so users know exactly what to ask |
