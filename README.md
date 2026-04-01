@@ -4,7 +4,7 @@ A native macOS application for exploring, deploying, and stress-testing AI syste
 
 **Latest Version:** v0.1.175
 
-[Download SEED-0.1.175-arm64.dmg](https://github.com/steveo-js/bedrock-app-pub/releases/download/v0.1.175/SEED-0.1.175-arm64.dmg)
+[Download SEED-0.1.175-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.175/SEED-0.1.175-arm64.dmg)
 
 ---
 
@@ -13,8 +13,11 @@ A native macOS application for exploring, deploying, and stress-testing AI syste
 ### Claude Chat (Anthropic API)
 Chat directly with Claude models (Opus 4.6, Sonnet 4.6, Haiku 4.5) using an API key from console.anthropic.com — no AWS or Azure account needed for this tab. Route traffic through a named proxy profile (URL or IP:Port) with automatic auth detection (Bearer token or HTTP Basic).
 
-### AWS Bedrock Chat & Models
-Chat with Amazon Bedrock models including Nova Micro, Nova Lite, Claude Sonnet 4, Claude Haiku 4.5, Llama 3.3 70B, and Mistral Large. Browse the full Bedrock catalog, enable additional models on demand, and manage model access — all without leaving the app.
+### AI Hub Chat
+Connect SEED to a JetStream AI Hub (LiteLLM / OpenAI-compatible) to test virtual key access, available models, MCP server integrations, and guardrail policies — all without writing code. Enter your hub address, port, and API key once; SEED fetches the full model list and streams responses in real time. Use this tab to verify that virtual keys have the right model permissions, that MCP tools are wired up correctly, and that guardrails are triggering as expected.
+
+### AWS Bedrock Models
+Browse the full Bedrock catalog, enable additional models on demand, and manage model access — all without leaving the app. Ships with six built-in models (Nova Micro, Nova Lite, Claude Sonnet 4, Claude Haiku 4.5, Llama 3.3 70B, Mistral Large); add any catalog model with a single click.
 
 ### AWS Bedrock Agents
 Create, configure, and chat with Amazon Bedrock Agents. Supports:
@@ -70,3 +73,4 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 | v0.1.169 | March 28, 2026 | Added URL vs IP:Port mode toggle in proxy setup (default port 4000) with assembled-URL preview |
 | v0.1.168 | March 28, 2026 | Claude direct API chat tab with proxy profiles, proxy auth detection (bearer/basic auto-detect), AWS/Azure toggle hidden on Chat tab |
 | v0.1.167 | March 28, 2026 | Added Claude Chat tab with direct Anthropic API integration, named proxy profiles for routing, and Claude section in Settings |
+
