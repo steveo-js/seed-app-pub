@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.191
+**Latest Version:** v0.1.192
 
-[Download SEED-0.1.191-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.191/SEED-0.1.191-arm64.dmg)
+[Download SEED-0.1.192-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.192/SEED-0.1.192-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.192 | April 3, 2026 | Fixed agent panel header layout: Scenarios, +Agent, and +KB buttons now move to a dedicated second row with equal flex sizing so they stay properly positioned at any column width. |
 | v0.1.191 | April 3, 2026 | Fixed guardrail build errors in Legal Research and AML Operations scenarios: shortened topic definitions to stay under the 200-char AWS limit, and corrected PROMPT_ATTACK output strength to NONE (AWS only applies this filter to inputs). |
 | v0.1.190 | April 3, 2026 | Model variety across all scenarios: supervisors and sub-agents now default to diverse models (Claude Haiku, Mistral Large, Llama 3.3, Nova Micro) matched to each agent's role, replacing the previous pattern of llama3-3 for all supervisors and nova-lite for all sub-agents. |
 | v0.1.189 | April 3, 2026 | 3 new scenarios: Software Development Lifecycle (hierarchical multi-agent with nested supervisor), Legal Research & Contract Intelligence (AWS Bedrock Guardrails + Code Interpreter), and Financial Crime & AML Operations (4 sub-agents + guardrails + PII protection). Adds type system and build runner support for hierarchical supervisors, guardrails, and Code Interpreter action groups. |
