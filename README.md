@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.182
+**Latest Version:** v0.1.183
 
-[Download SEED-0.1.182-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.182/SEED-0.1.182-arm64.dmg)
+[Download SEED-0.1.183-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.183/SEED-0.1.183-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.183 | April 3, 2026 | Scenario auto-detection: syncing AWS agents now restores scenario links by name pattern; new scan button and manual Link to Scenario menu option for manual/auto re-linking of orphaned agents and KBs |
 | v0.1.182 | April 3, 2026 | Custom Groups: tag any agent or KB into named groups via the row action menu — shows as a new My Groups section in the sidebar, independent of scenarios |
 | v0.1.181 | April 3, 2026 | Agent sync fixes: restore createdBySeed via resource prefix matching and recover isSupervisor from AWS agentCollaboration field, so scenario agents group correctly and supervisor panels reappear after a config reset |
 | v0.1.180 | April 2, 2026 | Fix Guide button disappearing for scenario agents with older template names |
