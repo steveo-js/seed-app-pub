@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.198
+**Latest Version:** v0.1.199
 
-[Download SEED-0.1.198-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.198/SEED-0.1.198-arm64.dmg)
+[Download SEED-0.1.199-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.199/SEED-0.1.199-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.199 | April 4, 2026 | Added 40-character minimum validation on agent Instructions field for AWS Bedrock; live counter turns amber and blocks submission until the constraint is met |
 | v0.1.198 | April 4, 2026 | Fixed invalid model identifier errors for Bedrock Agents by switching from cross-region inference profiles to on-demand base model IDs; improved error messages in agent chat |
 | v0.1.197 | April 3, 2026 | Build page improvements: 90-day history retention, search and status filter, no-delete policy, and red X for interrupted steps after cancellation |
 | v0.1.196 | April 3, 2026 | Redesigned guardrail test prompts for Legal Research and AML Operations scenarios with more effective triggers; fixed Use button sending label prefix instead of just the prompt. |
