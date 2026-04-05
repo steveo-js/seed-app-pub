@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.203
+**Latest Version:** v0.1.204
 
-[Download SEED-0.1.203-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.203/SEED-0.1.203-arm64.dmg)
+[Download SEED-0.1.204-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.204/SEED-0.1.204-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.204 | April 5, 2026 | Synthetic traffic generation — per-scenario 💬 and 💬 All buttons generate realistic chat sessions including guardrail-triggering prompts; progress tracked in builds tray as Traffic records with ⚡ guardrail indicators |
 | v0.1.203 | April 5, 2026 | Fixed scenario agents not appearing in their groups — scenarioMatcher now covers all 8 scenarios, and sync recovers original UUID for agents re-joined after being dropped |
 | v0.1.202 | April 5, 2026 | Guardrail retrofit for all 8 scenarios — real-company guardrail configs, 🛡 button on scenario groups to apply/re-apply without rebuilding |
 | v0.1.201 | April 5, 2026 | Fixed non-SEED agents not syncing to Other section (alias/KB fetch failures no longer silently drop agents); smooth column resize by updating DOM directly during drag instead of re-rendering on every pixel |
