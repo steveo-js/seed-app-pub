@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.214
+**Latest Version:** v0.1.215
 
-[Download SEED-0.1.214-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.214/SEED-0.1.214-arm64.dmg)
+[Download SEED-0.1.215-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.215/SEED-0.1.215-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.215 | April 6, 2026 | Per-agent MCP configuration via ••• menu, MCP feedback toasts, loading spinners, and 🔌 MCP badge on agent rows |
 | v0.1.214 | April 6, 2026 | Added MCP server integration: connect remote MCP servers (Context7, DeepWiki, etc.) to scenario agents via the ⋯ menu; SEED brokers tool calls during chat using RETURN_CONTROL |
 | v0.1.213 | April 5, 2026 | Fix: Guardrail test prompts redesigned to reliably trigger Bedrock guardrails — denied topic prompts embed exact prohibited phrases, PROMPT_ATTACK uses clear jailbreak language, MISCONDUCT uses actual criminal/fraud requests |
 | v0.1.212 | April 5, 2026 | Fix: Enable Guardrail failing with duplicate name error — route now looks up existing guardrail by name before creating, so re-enabling after a sync wipe reuses the AWS guardrail instead of erroring |
