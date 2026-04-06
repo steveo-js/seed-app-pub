@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.216
+**Latest Version:** v0.1.217
 
-[Download SEED-0.1.216-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.216/SEED-0.1.216-arm64.dmg)
+[Download SEED-0.1.217-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.217/SEED-0.1.217-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.217 | April 6, 2026 | Fixed MCP SSE parsing for servers like DeepWiki that prefix responses with 'event: message' lines |
 | v0.1.216 | April 6, 2026 | MCP Server Catalog page for managing remote MCP servers centrally, with catalog-based assignment to agents via ••• menu picker |
 | v0.1.215 | April 6, 2026 | Per-agent MCP configuration via ••• menu, MCP feedback toasts, loading spinners, and 🔌 MCP badge on agent rows |
 | v0.1.214 | April 6, 2026 | Added MCP server integration: connect remote MCP servers (Context7, DeepWiki, etc.) to scenario agents via the ⋯ menu; SEED brokers tool calls during chat using RETURN_CONTROL |
