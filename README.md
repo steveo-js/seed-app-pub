@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.225
+**Latest Version:** v0.1.226
 
-[Download SEED-0.1.225-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.225/SEED-0.1.225-arm64.dmg)
+[Download SEED-0.1.226-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.226/SEED-0.1.226-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.226 | April 16, 2026 | Improved KB build error messages with specific missing permissions and AWS Console links for all OSS, Bedrock, S3, and IAM steps |
 | v0.1.225 | April 16, 2026 | Fix false model-not-available error for inference-profile-only models, improve MCP prepare error messages, add Enable All button and multi-select bulk actions to Models page |
 | v0.1.223 | April 6, 2026 | Fixed AgentCore Gateway creation failing with 'already exists' when a previous attempt created the gateway but failed before saving its ID — now recovers by listing existing gateways/targets and reusing them instead of failing. |
 | v0.1.222 | April 6, 2026 | Fixed AgentCore Gateway method failing with 'MCP server target does not support current credential provider type' — AWS mcpServer Gateway Targets do not support API_KEY credential injection, so auth is now handled by the Lambda env vars directly. For authenticated backends the Lambda calls the raw MCP URL; for unauthenticated backends it routes through the Gateway URL as before. |
