@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.226
+**Latest Version:** v0.1.227
 
-[Download SEED-0.1.226-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.226/SEED-0.1.226-arm64.dmg)
+[Download SEED-0.1.227-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.227/SEED-0.1.227-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.227 | April 16, 2026 | Fixed manual credentials being ignored when an SSO profile was previously selected |
 | v0.1.226 | April 16, 2026 | Improved KB build error messages with specific missing permissions and AWS Console links for all OSS, Bedrock, S3, and IAM steps |
 | v0.1.225 | April 16, 2026 | Fix false model-not-available error for inference-profile-only models, improve MCP prepare error messages, add Enable All button and multi-select bulk actions to Models page |
 | v0.1.223 | April 6, 2026 | Fixed AgentCore Gateway creation failing with 'already exists' when a previous attempt created the gateway but failed before saving its ID — now recovers by listing existing gateways/targets and reusing them instead of failing. |
