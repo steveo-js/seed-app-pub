@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.232
+**Latest Version:** v0.1.233
 
-[Download SEED-0.1.232-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.232/SEED-0.1.232-arm64.dmg)
+[Download SEED-0.1.233-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.233/SEED-0.1.233-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.233 | April 24, 2026 | Fixed Q Business data source role trust policy: removed ArnLike condition so CreateDataSource validation can succeed before the data source ARN exists |
 | v0.1.232 | April 24, 2026 | Fixed Q Business role assumption error: removed ArnLike condition from application role trust policy since no application ARN exists yet at creation time |
 | v0.1.231 | April 24, 2026 | Fixed displayName validation error in Q Business — all SDK displayName fields now sanitize spaces to hyphens to match AWS pattern [a-zA-Z0-9][a-zA-Z0-9_-]* |
 | v0.1.230 | April 24, 2026 | Fixed Q App creation error: sanitize title to match required pattern [a-zA-Z0-9][a-zA-Z0-9_-]* (spaces replaced with hyphens) |
