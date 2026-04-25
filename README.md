@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.235
+**Latest Version:** v0.1.236
 
-[Download SEED-0.1.235-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.235/SEED-0.1.235-arm64.dmg)
+[Download SEED-0.1.236-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.236/SEED-0.1.236-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.236 | April 24, 2026 | Fixed Q Business sync failure error detail (now surfaces actual AWS error message instead of generic sync failed), handled INCOMPLETE sync status as success, and added debugLog instrumentation to all 10 Q Business API routes so Q Business operations now appear in the debug log |
 | v0.1.235 | April 24, 2026 | Fixed Q Business sync start error: poll data source status until ACTIVE before starting sync job, preventing 'DataSource status is: CREATING' error |
 | v0.1.234 | April 24, 2026 | Added Q Business orphan cleanup: 🗑 button in the Q Business sidebar section scans AWS for SEED-QBiz-* IAM roles and seed-qbiz-* S3 buckets not tracked in SEED and deletes them; failed builds now auto-cleanup their partial AWS resources instead of leaving orphans |
 | v0.1.233 | April 24, 2026 | Fixed Q Business data source role trust policy: removed ArnLike condition so CreateDataSource validation can succeed before the data source ARN exists |
