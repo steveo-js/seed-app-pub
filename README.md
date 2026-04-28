@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.243
+**Latest Version:** v0.1.244
 
-[Download SEED-0.1.243-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.243/SEED-0.1.243-arm64.dmg)
+[Download SEED-0.1.244-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.244/SEED-0.1.244-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.244 | April 28, 2026 | Fixed Amazon Quick Flows: replaced PredictQAppCommand (requires IAM Identity Center) with Bedrock/Claude to generate workflow cards — Q Business app is still provisioned as a real AWS resource, Q App and session steps are now simulated |
 | v0.1.243 | April 27, 2026 | Fixed Unauthorized on PredictQAppCommand: use actual IAM caller ARN as Q Apps userId, move user-context header to finalizeRequest step so it persists after SigV4 signing, improve error logging with error name and HTTP status |
 | v0.1.242 | April 27, 2026 | Fixed Unauthorized error on PredictQAppCommand — Q Apps API requires Amazon-QApps-UserContext header on every request; added middleware to QAppsClient to inject it automatically |
 | v0.1.241 | April 27, 2026 | Added Amazon Quick Flows integration — uses PredictQAppCommand to AI-generate Q App workflows from natural language descriptions, deploys them as interactive Q Apps on a minimal Q Business application, and adds an ⚡ Amazon Quick tab in the ScenarioModal with 3 scenarios (Customer Intake, Market Research, Incident Report) |
