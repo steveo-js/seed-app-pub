@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.248
+**Latest Version:** v0.1.249
 
-[Download SEED-0.1.248-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.248/SEED-0.1.248-arm64.dmg)
+[Download SEED-0.1.249-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.249/SEED-0.1.249-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.249 | May 1, 2026 | Hub model picker now correctly groups models by provider (OpenAI, Azure/Microsoft Foundry, Anthropic Direct, etc.) using owned_by — previously all non-Bedrock models were mislabeled as Anthropic Direct |
 | v0.1.248 | April 28, 2026 | Q Business scenario confirm screen now shows full preview before building — AWS resources grid, Chat Controls guardrail settings (scope, blocked phrases, system message override), Response Persona details (identity, tone, audience, instructions), and Plugin info |
 | v0.1.247 | April 28, 2026 | Added admin controls and response persona to Q Business scenarios — each build applies Chat Controls (ENTERPRISE_CONTENT_ONLY scope, blocked phrases, hallucination reduction, creator mode disabled) and a Chat Response Configuration with scenario-specific tone, identity, and instructions; surfaced via a 🛡 Controls badge in the chat panel |
 | v0.1.246 | April 28, 2026 | Enhanced Q Business scenarios with Q Web Experience and Q Plugin — all 3 scenarios now provision a hosted web chat UI and a CUSTOM-type Q Plugin with inline OpenAPI 3.0 schema; added Build dropdown to consolidate scenario launcher buttons; Amazon Quick Flows now uses Bedrock ConverseCommand for card generation instead of Q Apps |
