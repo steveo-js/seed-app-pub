@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.250
+**Latest Version:** v0.1.251
 
-[Download SEED-0.1.250-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.250/SEED-0.1.250-arm64.dmg)
+[Download SEED-0.1.251-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.251/SEED-0.1.251-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.251 | May 1, 2026 | Fix hub model picker: claude-* models now correctly grouped under Anthropic instead of OpenAI — name-pattern matching added for bare IDs that gateways stamp with owned_by=openai |
 | v0.1.250 | May 1, 2026 | Fix hub model picker: slash-prefix ID now checked before owned_by so LiteLLM's generic owned_by=openai no longer groups Anthropic and Azure Foundry models under OpenAI |
 | v0.1.249 | May 1, 2026 | Hub model picker now correctly groups models by provider (OpenAI, Azure/Microsoft Foundry, Anthropic Direct, etc.) using owned_by — previously all non-Bedrock models were mislabeled as Anthropic Direct |
 | v0.1.248 | April 28, 2026 | Q Business scenario confirm screen now shows full preview before building — AWS resources grid, Chat Controls guardrail settings (scope, blocked phrases, system message override), Response Persona details (identity, tone, audience, instructions), and Plugin info |
