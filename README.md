@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.254
+**Latest Version:** v0.1.255
 
-[Download SEED-0.1.254-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.254/SEED-0.1.254-arm64.dmg)
+[Download SEED-0.1.255-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.255/SEED-0.1.255-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.255 | May 8, 2026 | Fix manual AWS credentials login (cache-related 'AWS credentials not found' error), accept ASIA temporary keys |
 | v0.1.254 | May 8, 2026 | Default AI Hub setup port changed from 4000 to 443 |
 | v0.1.253 | May 6, 2026 | Fix BedrockAgentRole trust policy refresh on existing roles (fixes 'Bedrock can't access role' in partner accounts) and add named profile support for manual AWS credentials |
 | v0.1.252 | May 1, 2026 | Move AWS/Azure cloud toggle from header into Agents and Models pages where it is contextually relevant |
