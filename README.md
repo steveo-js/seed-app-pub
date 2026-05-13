@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.256 | May 12, 2026 | Portable-app pivot (no startup setup check) + multi-profile AI Hub support |
 | v0.1.256 | May 12, 2026 | Setup wizard no longer auto-opens on launch; use the Setup button in the header |
 | v0.1.255 | May 8, 2026 | Fix manual AWS credentials login (cache-related 'AWS credentials not found' error), accept ASIA temporary keys |
 | v0.1.254 | May 8, 2026 | Default AI Hub setup port changed from 4000 to 443 |
