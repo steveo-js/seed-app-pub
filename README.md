@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.258
+**Latest Version:** v0.1.259
 
-[Download SEED-0.1.258-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.258/SEED-0.1.258-arm64.dmg)
+[Download SEED-0.1.259-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.259/SEED-0.1.259-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.259 | June 19, 2026 | Added AI Hub Guardrail Test Suite: 28-prompt automated sequence (Blocked Keywords, PII, Prompt Injection, Regex, Sensitive Data) with live progress bar, category badges, auto-reset between tests, and Stop button |
 | v0.1.258 | May 22, 2026 | AI Hub Chat: ⋯ menu with Reset Connection and Disconnect, plus correct typing indicator (no more 'Agent Activity / orchestrating') |
 | v0.1.257 | May 21, 2026 | AI Hub: self-signed HTTPS checkbox for direct-to-IP hubs + clearer TLS error messages |
 | v0.1.256 | May 12, 2026 | Portable-app pivot (no startup setup check) + multi-profile AI Hub support |
