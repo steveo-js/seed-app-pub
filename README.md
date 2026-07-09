@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.262
+**Latest Version:** v0.1.263
 
-[Download SEED-0.1.262-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.262/SEED-0.1.262-arm64.dmg)
+[Download SEED-0.1.263-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.263/SEED-0.1.263-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.263 | July 9, 2026 | Fix migration to S3 Vectors failing on knowledge bases discovered via AWS sync (blank cached S3 bucket name produced an invalid ARN) |
 | v0.1.262 | July 9, 2026 | Add S3 Vectors knowledge-base storage backend with migration wizard from OpenSearch Serverless |
 | v0.1.261 | July 6, 2026 | Fix ⋯ menu viewport clipping on small screens; surface raw hub error messages in chat |
 | v0.1.260 | June 19, 2026 | Guardrail test panel: added Setup column as expandable rows — click any test to reveal its full guardrail configuration instructions, expected behavior, and hub response (once complete) |
