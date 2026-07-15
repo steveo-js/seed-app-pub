@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.268
+**Latest Version:** v0.1.297
 
-[Download SEED-0.1.268-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.268/SEED-0.1.268-arm64.dmg)
+[Download SEED-0.1.297-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.297/SEED-0.1.297-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.297 | July 14, 2026 | Added AgentCore platform support with automatic code generation for LangGraph and CrewAI, Lambda deployment with S3 versioning, and dual-platform agent creation UI |
 | v0.1.268 | July 10, 2026 | Fix migration losing track of its target knowledge base/data source on sync, which caused duplicate-name errors on retry |
 | v0.1.267 | July 10, 2026 | Fix shared KB IAM role S3 access being scoped to a single bucket, which silently broke other knowledge bases' S3 access whenever the role was set up for a different one |
 | v0.1.266 | July 9, 2026 | Fix S3 Vectors ingestion failures (missing vector bucket policy), surface real ingestion failure reasons, and add a Cancel button to the bulk migration wizard |
