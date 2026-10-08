@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.366
+**Latest Version:** v0.1.367
 
-[Download SEED-0.1.366-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.366/SEED-0.1.366-arm64.dmg)
+[Download SEED-0.1.367-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.367/SEED-0.1.367-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.367 | October 8, 2026 | Populate Data for agent scenarios with per-scenario limits; per-gateway limits and $ budgets in Chat Populate Data |
 | v0.1.366 | October 8, 2026 | Fix AI Hub chat using the wrong API: Anthropic models now use /v1/messages, OpenAI/Bedrock models use /v1/responses, with automatic fallback |
 | v0.1.365 | August 28, 2026 | Removed Amazon Q Business, Amazon QuickSight, and Amazon Quick (Quick Flows) capabilities. Existing AWS resources are untouched and must be cleaned up in the AWS console. |
 | v0.1.364 | August 26, 2026 | Populate Data — run Attacks, Guardrail Tests and Usage Spike across up to 5 gateways at once from the Chat menu, populating the JetStream console from multiple virtual keys |
