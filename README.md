@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.368
+**Latest Version:** v0.1.369
 
-[Download SEED-0.1.368-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.368/SEED-0.1.368-arm64.dmg)
+[Download SEED-0.1.369-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.369/SEED-0.1.369-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.369 | October 15, 2026 | JetStream Gateway-Governed Agent: MCP gateway targets now always authenticate with the bearer token of the Gateways profile selected for inference. |
 | v0.1.368 | October 15, 2026 | New JetStream Gateway-Governed Agent harness scenario: inference via a JetStream AI gateway, tools via a dedicated AgentCore MCP gateway fronting JetStream-hosted MCP servers. Fix: hub-routed harnesses now call Claude models over /v1/messages. |
 | v0.1.367 | October 8, 2026 | Populate Data for agent scenarios with per-scenario limits; per-gateway limits and $ budgets in Chat Populate Data |
 | v0.1.366 | October 8, 2026 | Fix AI Hub chat using the wrong API: Anthropic models now use /v1/messages, OpenAI/Bedrock models use /v1/responses, with automatic fallback |
