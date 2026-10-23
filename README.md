@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.370
+**Latest Version:** v0.1.371
 
-[Download SEED-0.1.370-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.370/SEED-0.1.370-arm64.dmg)
+[Download SEED-0.1.371-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.371/SEED-0.1.371-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.371 | October 23, 2026 | Remove the CoPilots placeholder tab for now |
 | v0.1.370 | October 23, 2026 | Add Endpoints tab (synthetic endpoint, browser and coding-agent data for JetStream tenants, aligned with JetScanner and jetstream-hooks) and CoPilots placeholder; harden local API against cross-site/DNS-rebinding requests; keep tenant keys bound to their tenant; Endpoints run lifecycle fixes |
 | v0.1.369 | October 15, 2026 | JetStream Gateway-Governed Agent: MCP gateway targets now always authenticate with the bearer token of the Gateways profile selected for inference. |
 | v0.1.368 | October 15, 2026 | New JetStream Gateway-Governed Agent harness scenario: inference via a JetStream AI gateway, tools via a dedicated AgentCore MCP gateway fronting JetStream-hosted MCP servers. Fix: hub-routed harnesses now call Claude models over /v1/messages. |
