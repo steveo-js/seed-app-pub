@@ -2,9 +2,9 @@
 
 A native macOS application for exploring, deploying, and stress-testing AI systems across multiple cloud providers. Connect to **Amazon Bedrock** or **Azure AI Foundry** — all from one tool, with your credentials staying on your machine.
 
-**Latest Version:** v0.1.372
+**Latest Version:** v0.1.373
 
-[Download SEED-0.1.372-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.372/SEED-0.1.372-arm64.dmg)
+[Download SEED-0.1.373-arm64.dmg](https://github.com/steveo-js/seed-app-pub/releases/download/v0.1.373/SEED-0.1.373-arm64.dmg)
 
 ---
 
@@ -57,6 +57,7 @@ Pre-built scenario templates that stand up realistic multi-agent environments fo
 
 | Version | Date | Changes |
 |---------|------|---------|
+| v0.1.373 | November 13, 2026 | Endpoints scenarios (Shadow AI discovery, A copied skill spreads) and saved fleets; three-step Populate Data; JetScanner, coding-agent, browser and Kubernetes parity; malicious skills checked against the real analyzer; more realistic machines and agent replies |
 | v0.1.372 | November 2, 2026 | JetStream branding across the app; Endpoints tenant cards and Populate Data presets; ingest parity (k8s, jetcontrol v2, skill bundles, hooks); more realistic synthetic data |
 | v0.1.371 | October 23, 2026 | Remove the CoPilots placeholder tab for now |
 | v0.1.370 | October 23, 2026 | Add Endpoints tab (synthetic endpoint, browser and coding-agent data for JetStream tenants, aligned with JetScanner and jetstream-hooks) and CoPilots placeholder; harden local API against cross-site/DNS-rebinding requests; keep tenant keys bound to their tenant; Endpoints run lifecycle fixes |
